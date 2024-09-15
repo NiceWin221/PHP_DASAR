@@ -1,0 +1,11 @@
+PHP Code
+
+Function
+filter_input(INPUT_POST(method), "username"(value), (FILTER_SANITIZE_SPECIAL, NUMBER_INT, EMAIL)(FILTER_VALIDATE_INT, EMAIL) )
+setcookie("cookie_name", "cookie_value", "expires", "/")
+password_hash() // for hasing password that user input
+password_verify("password_input", "saved_password") / for comparing password that user input and password that at the database
+
+Variable
+$_SESSION
+$_SERVER
