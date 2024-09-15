@@ -6,6 +6,13 @@ setcookie("cookie_name", "cookie_value", "expires", "/")
 password_hash() // for hasing password that user input
 password_verify("password_input", "saved_password") / for comparing password that user input and password that at the database
 
+MYSQLI
+$sql = "SELECT * FROM users WHERE users = 'Sandy'"
+$result = mysqli_query($conn, $sql)
+mysqli_num_rows($result)
+$rpw = mysqli_fetch_assoc($result)
+
+
 Variable
 $_SESSION
 $_SERVER
